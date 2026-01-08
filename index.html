@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/x-icon" href="logo/mini.jpg">
+	  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style type="text/css">
+		@font-face{
+			font-family: "orbitron";
+			src:url("orbitron.ttf") format('truetype');
+			font-weight: 400;
+			font-style: normal;
+
+
+		}
+		@font-face{
+			font-family: "orbitron";
+			src:url("orbitron.ttf") format('truetype');
+			font-weight: 700;
+			font-style: normal;
+		}
+		:root {
+  --bs-body-font-family: "orbitron", sans-serif;
+}
+@media(max-width: 768px){
+.my-profile{
+	gap:10vh;
+}
+.my-navbar{
+	font-size: 12px;
+}
+}
+body{
+	background:linear-gradient(135deg,#020617,#f8fafc);
+}
+
+
+
+
+	</style>
+
+<!-- <link rel="stylesheet" href="orbitron.ttf"> -->
+
+	<title>halaman utama</title>
+</head>
+<body class="pb-5">
+
+
+<div class="d-flex flex-column align-items-center justify-content-start mt-5 my-profile"> <!-- handphone  -->
+	
+	<img src="logo/logo2.webp" alt="image" class="img-fluid" >	
+	<p class="text-center">Hatech defense adalah perusahaan yang bergerak dibidang drone militer</p>
+	<h1 id="greeting"></h1>
+
+	
+</div>
+<!-- <div class="d-flex align-items-center justify-content-center vh-100 d-none d-md-block gap-2"> 
+	
+	<img src="logo/logo2.webp" alt="image" class="img-fluid w-50" >	
+	<p>Hatech defense adalah perusahaan yang bergerak dibidang drone militer</p>
+	<h1 id="greeting"></h1>
+
+	
+</div> -->
+
+<nav class="navbar fixed-bottom bg-dark" >
+	<div class="container-fluid d-flex justify-content-around gap-2 my-navbar">
+		<a href="index.html" class="text-white text-decoration-none d-inline-block border border-primary border-opacity-50 rounded p-3">halaman utama</a>
+		<a href="about.html" class="text-white text-decoration-none d-inline-block border border-primary border-opacity-50 rounded p-3">tentang kami</a>
+		<a href="services.html" class="text-white text-decoration-none d-inline-block border border-primary border-opacity-50 rounded p-3">produk</a>
+		<a href="gallery.html" class="text-white text-decoration-none d-inline-block border border-primary border-opacity-50 rounded p-3">galeri</a>
+		<a href="contact.html" class="text-white text-decoration-none d-inline-block border border-primary border-opacity-50 rounded p-3">kontak</a>
+	</div>
+	
+</nav>
+
+<script src="script/script.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/x-icon" href="logo/mini.jpg">
+	  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style type="text/css">
+		@font-face{
+			font-family: "orbitron";
+			src:url("orbitron.ttf") format('truetype');
+			font-weight: 400;
+			font-style: normal;
+
+
+		}
+		@font-face{
+			font-family: "orbitron";
+			src:url("orbitron.ttf") format('truetype');
+			font-weight: 700;
+			font-style: normal;
+		}
+		.my-navbar{
+			font-family: "orbitron";
+		}
+		body{
+	background:linear-gradient(135deg,#020617,#f8fafc);
+}
+
+@media(max-width: 768px){
+
+.my-navbar{
+  font-size: 12px;
+}
+}
+
+
+	</style>
+<!-- <link rel="stylesheet" href="orbitron.ttf"> -->
+
+	<title>contact</title>
+</head>
+<body class="pb-5">
+    <h1 class="text-white text-center">Kontak</h1>
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 col-lg-6">
+
+
+      <form action="/action_page.php" class="p-4 border rounded mb-4">
+        <h4 class="mb-4 text-center text-white">Login</h4>
+
+
+
+        <div class="mb-3">
+         <label for="email" class="form-label text-white">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Masukkan email"
+            name="email"
+          >
+        </div>
+
+
+
+
+        <div class="mb-3">
+          <label for="pwd" class="form-label text-white">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="pwd"
+            placeholder="Masukkan password"
+            name="pswd"
+          >
+        </div>
+
+        <div class="form-check mb-4">
+          <input
+            class="form-check-input"
+    	        type="checkbox"
+            id="remember"
+            name="remember"
+          >
+          <label class="form-check-label text-white" for="remember">
+            Remember me
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">
+          Submit
+        </button>
+      </form>
+
+
+      <div class="p-4 border rounded bg-light">
+   		     <label for="comment" class="form-label mb-2">
+          Komentar
+        </label>
+
+        <textarea
+          class="form-control mb-3"
+          rows="5"
+          id="comment"
+          name="text"
+          placeholder="Tulis komentar kamu di sini..."
+        ></textarea>
+
+        <button type="button" class="btn btn-secondary w-100">
+          Kirim Komentar
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="container my-5">
+  <div class="card shadow-sm">
+    <div class="card-body">
+
+      <h5 class="mb-4">Informasi Kontak</h5>
+
+      <div class="d-flex flex-column gap-3">
+
+  
+
+        <div class="d-flex align-items-center gap-3">
+          <img src="icon/email.webp" alt="Email" width="24">
+          <span>email@Hatech.com</span>
+        </div>
+
+        <div class="d-flex align-items-center gap-3">
+          <img src="icon/telepon.webp" alt="Telepon" width="24">
+          <span>+66 666-6666-6666</span>
+        </div>
+
+
+
+        <div class="d-flex align-items-center gap-3">
+         	 <img src="icon/lokasi.webp" alt="Lokasi" width="24">
+          <span>Jl. coral no 66, Atlantis</span>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<nav class="navbar fixed-bottom bg-dark" >
+	<div class="container-fluid d-flex justify-content-around gap-2 my-navbar">
+		<a href="index.html" class="text-white text-decoration-none d-inline-block border border-primary border-opacity-50 rounded p-3">halaman utama</a>
+		<a href="about.html" class="text-white text-decoration-none d-inline-block border border-primary border-opacity-50 rounded p-3">tentang kami</a>
+		<a href="services.html" class="text-white text-decoration-none d-inline-block border border-primary border-opacity-50 rounded p-3">produk</a>
+		<a href="gallery.html" class="text-white text-decoration-none d-inline-block border border-primary border-opacity-50 rounded p-3">galeri</a>
+		<a href="contact.html" class="text-white text-decoration-none d-inline-block border border-primary border-opacity-50 rounded p-3">kontak</a>
+	</div>
+	
+</nav>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

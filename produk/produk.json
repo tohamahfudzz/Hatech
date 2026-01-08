@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "nama": "HATECH RAVAGER-9",
+      "deskripsi": "RAVAGER-9 adalah drone kamikaze jarak jauh dengan siluet besar dan intimidatif. Dirancang untuk operasi strategis, drone ini mampu berpatroli lama di udara sebelum menjalankan serangan presisi satu arah. Keunggulan utamanya adalah ketenangan dan kesabaran—ia menunggu momen paling tepat sebelum mengunci target bernilai tinggi.",
+      "link": "produk/ravager/HATECHRAVAGER-9.webp",
+      "kategori": "ravager"
+    },
+    {
+      "nama": "HATECH RAVAGER-9 ER",
+      "deskripsi": "RAVAGER-9 ER adalah evolusi jarak jauh dari platform dasar RAVAGER-9. Varian ini dirancang untuk operasi lintas wilayah dan misi yang menuntut kehadiran udara berjam-jam tanpa terdeteksi. Dengan kapasitas bahan bakar yang jauh lebih besar, ER bukan drone yang terburu-buru—ia adalah pengintai sekaligus ancaman laten yang terus “menggantung” di langit musuh.",
+      "link": "produk/ravager/HATECHRAVAGER-9ER.webp",
+      "kategori": "ravager"
+    },
+    {
+      "nama": "HATECH RAVAGER-9 JAVELIN",
+      "deskripsi": "RAVAGER-9 JAVELIN adalah varian bermesin jet yang mengorbankan durasi terbang demi kecepatan dan respons instan. Drone ini diciptakan untuk misi “datang–hantam–lenyap”, mampu menembus wilayah konflik dengan waktu reaksi minimum. Dalam doktrin Hatech Defense, JAVELIN digunakan ketika waktu adalah faktor penentu kemenangan.",
+      "link": "produk/ravager/HATECHRAVAGER-9JAVELIN.webp",
+      "kategori": "ravager"
+    },
+    {
+      "nama": "HATECH STINGRAY-X",
+      "deskripsi": "STINGRAY-X adalah drone FPV kamikaze berukuran kecil dan sangat lincah, dirancang untuk pertempuran jarak dekat dan lingkungan kompleks. Drone ini mengandalkan kecepatan, kelincahan, dan kontrol visual real-time untuk menembus area sempit dan memberikan dampak maksimal dalam waktu singkat.",
+      "link": "produk/stingray/HATECHSTINGRAY-X.webp",
+      "kategori": "fpv"
+    },
+    {
+      "nama": "HATECH MULE-4",
+      "deskripsi": "MULE-4 adalah drone FPV logistik yang dirancang untuk mengirimkan suplai penting ke area berbahaya tanpa mempertaruhkan personel. Fokusnya bukan kecepatan ekstrem, melainkan keandalan dan presisi pengantaran. Dalam dunia Hatech Defense, drone ini dikenal sebagai “penyelamat sunyi” di medan konflik.",
+      "link": "produk/mule/HATECHMULE-4.webp",
+      "kategori": "fpv"
+    },
+    {
+      "nama": "HATECH AEGIS-C2 CONTAINER",
+      "deskripsi": "AEGIS-C2 adalah container kendali drone berbasis darat yang dirancang untuk operasi cepat dan fleksibel. Dari luar tampak seperti kontainer logistik biasa, tapi di dalamnya adalah pusat komando berlapis keamanan tinggi yang mampu mengoordinasikan berbagai platform drone Hatech Defense secara simultan.",
+      "link": "produk/control/HATECHAEGIS-C2CONTAINER.webp",
+      "kategori": "control"
+    }
+  ]
+}
