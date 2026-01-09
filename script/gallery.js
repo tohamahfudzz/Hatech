@@ -1,7 +1,6 @@
-// Ambil container
+
 const container = document.getElementById('produk-container');
 
-// Load JSON
 fetch('produk/produk.json')
   .then(response => response.json())
   .then(data => {
@@ -15,6 +14,8 @@ fetch('produk/produk.json')
       const card = document.createElement('div');
       card.className = 'col-md-4';
 
+
+      
       card.innerHTML = `
         <div class="card bg-secondary h-100">
           <img src="${item.link}" class="card-img-top" alt="${item.nama}">
@@ -31,3 +32,4 @@ fetch('produk/produk.json')
     });
   })
   .catch(err => console.error('Error loading JSON:', err));
+
