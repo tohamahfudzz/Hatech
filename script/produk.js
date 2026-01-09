@@ -1,7 +1,6 @@
-// Ambil container
+
 const container = document.getElementById('produk-container');
 
-// Load JSON
 fetch('produk/produk.json')
   .then(response => response.json())
   .then(data => {
@@ -48,3 +47,4 @@ fetch('produk/produk.json')
     });
   })
   .catch(err => console.error('Error loading JSON:', err));
+
